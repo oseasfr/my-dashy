@@ -81,7 +81,7 @@ sections:
       - &ref_2
         title: Virustotal
         description: ''
-        icon: https://virustotal.com/favicon.ico
+        icon: https://www.virustotal.com/gui/images/favicon.svg
         url: https://www.virustotal.com/
         target: newtab
         provider: Dashy.to
