@@ -101,12 +101,13 @@ sections:
         target: newtab
         id: 4_397_abuseipdb
       - &ref_5
-        title: DNS Recursivo
-        description: Get help with Dashy, raise a bug, or get in contact
-        icon: '          https://img.icons8.com/?size=100&id=iJs7lCi35ZMS&format=png&color=000000'
-        url: https://openresolver.com
+        title: Netlas
+        description: ''
+        icon: >-
+          https://app.netlas.io/static/media/logo-dark.e3792204ae117bd83067f342f15944f6.svg
+        url: https://app.netlas.io/host/
         target: newtab
-        id: 5_397_dnsrecursivo
+        id: 5_397_netlas
       - &ref_6
         title: Urlscan.io
         icon: https://urlscan.io/favicon.ico
@@ -128,7 +129,8 @@ sections:
       - *ref_5
       - *ref_6
   - name: GitHub
-    icon: https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png
+    icon: >-
+      https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png
     displayData:
       sortBy: alphabetical
       rows: 1
