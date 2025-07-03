@@ -215,3 +215,52 @@ sections:
       - *ref_13
       - *ref_14
       - *ref_15
+  - name: Utilidades
+    icon: https://img.icons8.com/?size=100&id=20544&format=png&color=000000
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - &ref_16
+        title: Apêndice L
+        icon: https://www.microsoft.com/favicon.ico?v2
+        url: >-
+          https://learn.microsoft.com/pt-br/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor
+        target: newtab
+        id: 0_1032_apndicel
+      - &ref_17
+        title: Favicon hash
+        icon: >-
+          https://img.icons8.com/?size=100&id=KwDPbwT6mZqk&format=png&color=000000
+        url: https://favicon-hash.kmsec.uk/
+        target: newtab
+        id: 1_1032_faviconhash
+      - &ref_18
+        title: Excalidraw
+        icon: https://excalidraw.com/favicon.ico
+        url: https://excalidraw.com/
+        target: newtab
+        id: 2_1032_excalidraw
+      - &ref_19
+        title: MS Update Catalog
+        icon: https://www.microsoft.com/favicon.ico?v2
+        url: https://www.catalog.update.microsoft.com/Home.aspx
+        target: newtab
+        id: 3_1032_msupdatecatalog
+      - &ref_20
+        title: Códigos ASCII
+        icon: >-
+          https://img.icons8.com/?size=100&id=3QnmmCRBWaZU&format=png&color=000000
+        url: >-
+          https://www.freecodecamp.org/portuguese/news/codigos-alt-como-digitar-caracteres-especiais-e-simbolos-do-teclado-no-windows-usando-as-teclas-alt/
+        target: newtab
+        id: 4_1032_cdigosascii
+    filteredItems:
+      - *ref_16
+      - *ref_17
+      - *ref_18
+      - *ref_19
+      - *ref_20
