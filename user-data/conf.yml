@@ -36,7 +36,7 @@ appConfig:
   hideComponents:
     hideHeading: false
     hideNav: false
-    hideSearch: true
+    hideSearch: false
     hideSettings: true
     hideFooter: true
   auth:
@@ -46,12 +46,12 @@ appConfig:
     oidc: {}
     enableHeaderAuth: false
     headerAuth:
-      userHeader: REMOTE_USER
+      userHeader: ''
       proxyWhitelist: []
     enableKeycloak: false
   showSplashScreen: false
-  preventWriteToDisk: true
-  preventLocalSave: true
+  preventWriteToDisk: false
+  preventLocalSave: false
   disableConfiguration: false
   disableConfigurationForNonAdmin: false
   allowConfigEdit: true
