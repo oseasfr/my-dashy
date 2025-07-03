@@ -128,8 +128,7 @@ sections:
       - *ref_5
       - *ref_6
   - name: GitHub
-    icon: >-
-      https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png
+    icon: https://img.logo.dev/github.com?token=pk_BtpN3AGERpOZdYG64H5hJQ&format=png
     displayData:
       sortBy: alphabetical
       rows: 1
