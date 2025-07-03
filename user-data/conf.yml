@@ -4,7 +4,7 @@ pageInfo:
   navLinks:
     - title: GitHub
       path: https://github.com/oseasfr/my-dashy
-  logo: https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png
+  logo: https://img.icons8.com/?size=100&id=nk7tDNzEkDgu&format=png&color=000000
   footerText: Oséas Rosa | 2025
 appConfig:
   theme: nord-frost
