@@ -1,13 +1,12 @@
-# Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Useful Links
   description: oseasfr
   navLinks:
-  - title: GitHub
-    path: https://github.com/oseasfr/my-dashy
-    logo: https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png
+    - title: GitHub
+      path: https://github.com/oseasfr/my-dashy
+      logo: >-
+        https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png
   footerText: Oséas Rosa | 2025
-# Optional app settings and configuration
 appConfig:
   theme: nord-frost
   layout: auto
@@ -61,34 +60,63 @@ appConfig:
   disableUpdateChecks: false
   disableSmartSort: false
   enableErrorReporting: false
-# Main content - An array of sections, each containing an array of items
 sections:
-- name: OSINT
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
+  - name: OSINT
+    icon: fas fa-globe
+    items:
+      - &ref_0
+        title: Mxtollbox
+        description: ''
+        icon: https://mxtoolbox.com/favicon.ico
+        url: https://mxtoolbox.com/blacklists.aspx
+        target: newtab
+        id: 0_397_mxtollbox
+      - &ref_1
+        title: IP Checker Info
+        description: ''
+        icon: https://ip-checker.info/favicon.ico
+        url: https://ip-checker.info/
+        target: newtab
+        id: 1_397_ipcheckerinfo
+      - &ref_2
+        title: Virustotal
+        description: ''
+        icon: https://virustotal.com/favicon.ico
+        url: https://www.virustotal.com/
+        target: newtab
+        provider: Dashy.to
+        id: 2_397_virustotal
+      - &ref_3
+        title: Web-check
+        description: ''
+        icon: https://web-check.xyz/favicon.ico
+        url: https://web-check.xyz/
+        target: newtab
+        id: 3_397_webcheck
+      - &ref_4
+        title: Abuseipdb
+        description: ''
+        icon: https://www.abuseipdb.com/favicon.ico
+        url: https://www.abuseipdb.com/
+        target: newtab
+        id: 4_397_abuseipdb
+      - &ref_5
+        title: DNS Recursivo
+        description: Get help with Dashy, raise a bug, or get in contact
+        icon: '          https://img.icons8.com/?size=100&id=iJs7lCi35ZMS&format=png&color=000000'
+        url: https://openresolver.com
+        target: newtab
+        id: 5_397_dnsrecursivo
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    filteredItems:
+      - *ref_0
+      - *ref_1
+      - *ref_2
+      - *ref_3
+      - *ref_4
+      - *ref_5
