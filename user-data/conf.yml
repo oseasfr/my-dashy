@@ -62,7 +62,7 @@ appConfig:
   enableErrorReporting: false
 sections:
 - name: OSINT
-    displayData:
+      displayData:
       sortBy: alphabetical
       rows: 1
       cols: 1
