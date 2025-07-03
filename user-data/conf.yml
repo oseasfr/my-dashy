@@ -107,7 +107,7 @@ sections:
         icon: https://app.netlas.io/static/media/logo-dark.e3792204ae117bd83067f342f15944f6.svg
         url: https://app.netlas.io/host
         target: newtab
-        id: 5_397_netlas
+        id: 5_397_dnsrecursivo
       - &ref_6
         title: Urlscan.io
         icon: https://urlscan.io/favicon.ico
