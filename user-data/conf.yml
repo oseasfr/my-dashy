@@ -2,8 +2,9 @@ pageInfo:
   title: Useful Links
   description: oseasfr
   navLinks:
-    - title: GitHub
+    - title: my-dashy
       path: https://github.com/oseasfr/my-dashy
+      target: newtab
   logo: https://img.icons8.com/?size=100&id=nk7tDNzEkDgu&format=png&color=000000
   footerText: Oséas Rosa | 2025
 appConfig:
@@ -126,7 +127,7 @@ sections:
       - *ref_4
       - *ref_5
       - *ref_6
-  - name: Meu GitHub
+  - name: GitHub
     icon: >-
       https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png
     displayData:
@@ -141,29 +142,75 @@ sections:
         icon: https://github.com/favicon.ico
         url: https://github.com/oseasfr/cyber/wiki
         target: newtab
-        id: 0_906_wiki
+        id: 0_579_wiki
       - &ref_8
         title: search-abuseipdb
         icon: https://www.abuseipdb.com/favicon.ico
         url: https://oseasfr.github.io/search-abuseipdb/
         target: newtab
-        id: 1_906_searchabuseipdb
+        id: 1_579_searchabuseipdb
       - &ref_9
         title: gerador-de-senhas
         icon: >-
           https://img.icons8.com/?size=100&id=n1tNCA0ZH7f5&format=png&color=000000
         url: https://oseasfr.github.io/gerador-de-senhas/
         target: newtab
-        id: 2_906_geradordesenhas
+        id: 2_579_geradordesenhas
       - &ref_10
         title: osint-regex-toolkit
         icon: >-
           https://raw.githubusercontent.com/oseasfr/osint-brazuca/main/assets/logo_profile.png
         url: https://oseasfr.github.io/osint-regex-toolkit/
         target: newtab
-        id: 3_906_osintregextoolkit
+        id: 3_579_osintregextoolkit
     filteredItems:
       - *ref_7
       - *ref_8
       - *ref_9
       - *ref_10
+  - name: IA
+    icon: https://img.icons8.com/?size=100&id=97384&format=png&color=000000
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - &ref_11
+        title: Presentations
+        icon: >-
+          https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/63fedbd8e101652ba74f55c5_p_ai_32.png
+        url: https://www.presentations.ai/
+        target: newtab
+        id: 0_138_presentations
+      - &ref_12
+        title: Claude
+        icon: https://claude.ai/favicon.ico
+        url: https://claude.ai
+        target: newtab
+        id: 1_138_claude
+      - &ref_13
+        title: Kimi
+        icon: https://statics.moonshot.cn/kimi-web-seo/favicon.ico
+        url: https://kimi.moonshot.cn/
+        target: newtab
+        id: 2_138_kimi
+      - &ref_14
+        title: Manus
+        icon: https://manus.im/favicon.ico
+        url: https://manus.im
+        target: newtab
+        id: 3_138_manus
+      - &ref_15
+        title: Chatgpt
+        icon: https://chatgpt.com/favicon.ico
+        url: https://chatgpt.com
+        target: newtab
+        id: 4_138_chatgpt
+    filteredItems:
+      - *ref_11
+      - *ref_12
+      - *ref_13
+      - *ref_14
+      - *ref_15
