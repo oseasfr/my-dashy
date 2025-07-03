@@ -32,11 +32,11 @@ appConfig:
     openingMethod: newtab
     searchBangs: {}
   enableFontAwesome: true
-  enableMaterialDesignIcons: false
+  enableMaterialDesignIcons: true
   hideComponents:
     hideHeading: false
     hideNav: false
-    hideSearch: false
+    hideSearch: true
     hideSettings: true
     hideFooter: true
   auth:
@@ -50,8 +50,8 @@ appConfig:
       proxyWhitelist: []
     enableKeycloak: false
   showSplashScreen: false
-  preventWriteToDisk: false
-  preventLocalSave: false
+  preventWriteToDisk: true
+  preventLocalSave: true
   disableConfiguration: false
   disableConfigurationForNonAdmin: false
   allowConfigEdit: true
