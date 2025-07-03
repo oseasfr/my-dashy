@@ -1,4 +1,3 @@
-dns
 pageInfo:
   title: Useful Links
   description: oseasfr
@@ -102,10 +101,10 @@ sections:
         target: newtab
         id: 4_397_abuseipdb
       - &ref_5
-        title: Netlas
-        description: ''
-        icon: https://app.netlas.io/static/media/logo-dark.e3792204ae117bd83067f342f15944f6.svg
-        url: https://app.netlas.io/host
+        title: DNS Recursivo
+        description: Get help with Dashy, raise a bug, or get in contact
+        icon: '          https://img.icons8.com/?size=100&id=iJs7lCi35ZMS&format=png&color=000000'
+        url: https://openresolver.com
         target: newtab
         id: 5_397_dnsrecursivo
       - &ref_6
