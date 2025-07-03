@@ -106,6 +106,12 @@ sections:
         url: https://openresolver.com
         target: newtab
         id: 5_397_dnsrecursivo
+      - &ref_6
+        title: Urlscan.io
+        icon: https://urlscan.io/favicon.ico
+        url: https://urlscan.io
+        target: newtab
+        id: 6_397_urlscanio
     displayData:
       sortBy: alphabetical
       rows: 1
@@ -119,3 +125,45 @@ sections:
       - *ref_3
       - *ref_4
       - *ref_5
+      - *ref_6
+  - name: Meu GitHub
+    icon: >-
+      https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - &ref_7
+        title: Wiki
+        icon: https://github.com/favicon.ico
+        url: https://github.com/oseasfr/cyber/wiki
+        target: newtab
+        id: 0_906_wiki
+      - &ref_8
+        title: search-abuseipdb
+        icon: https://www.abuseipdb.com/favicon.ico
+        url: https://oseasfr.github.io/search-abuseipdb/
+        target: newtab
+        id: 1_906_searchabuseipdb
+      - &ref_9
+        title: gerador-de-senhas
+        icon: >-
+          https://img.icons8.com/?size=100&id=n1tNCA0ZH7f5&format=png&color=000000
+        url: https://oseasfr.github.io/gerador-de-senhas/
+        target: newtab
+        id: 2_906_geradordesenhas
+      - &ref_10
+        title: osint-regex-toolkit
+        icon: >-
+          https://raw.githubusercontent.com/oseasfr/osint-brazuca/main/assets/logo_profile.png
+        url: https://oseasfr.github.io/osint-regex-toolkit/
+        target: newtab
+        id: 3_906_osintregextoolkit
+    filteredItems:
+      - *ref_7
+      - *ref_8
+      - *ref_9
+      - *ref_10
