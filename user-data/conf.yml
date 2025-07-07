@@ -18,7 +18,7 @@ appConfig:
       background-darker: '#151c29'
   startingView: default
   defaultOpeningMethod: newtab
-  statusCheck: false
+  statusCheck: true
   statusCheckInterval: 0
   backgroundImg: >-
     https://images.unsplash.com/photo-1633098096956-afdc8bcc8552?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
@@ -209,12 +209,19 @@ sections:
         url: https://chatgpt.com
         target: newtab
         id: 4_138_chatgpt
+      - &ref_16
+        title: Napkin
+        icon: https://www.napkin.ai/favicon.ico
+        url: https://www.napkin.ai
+        target: newtab
+        id: 5_138_napkin
     filteredItems:
       - *ref_11
       - *ref_12
       - *ref_13
       - *ref_14
       - *ref_15
+      - *ref_16
   - name: Utilidades
     icon: https://img.icons8.com/?size=100&id=20544&format=png&color=000000
     displayData:
@@ -224,33 +231,33 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_16
+      - &ref_17
         title: Apêndice L
         icon: https://www.microsoft.com/favicon.ico?v2
         url: >-
           https://learn.microsoft.com/pt-br/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor
         target: newtab
         id: 0_1032_apndicel
-      - &ref_17
+      - &ref_18
         title: Favicon hash
         icon: >-
           https://img.icons8.com/?size=100&id=KwDPbwT6mZqk&format=png&color=000000
         url: https://favicon-hash.kmsec.uk/
         target: newtab
         id: 1_1032_faviconhash
-      - &ref_18
+      - &ref_19
         title: Excalidraw
         icon: https://excalidraw.com/favicon.ico
         url: https://excalidraw.com/
         target: newtab
         id: 2_1032_excalidraw
-      - &ref_19
+      - &ref_20
         title: MS Update Catalog
         icon: https://www.microsoft.com/favicon.ico?v2
         url: https://www.catalog.update.microsoft.com/Home.aspx
         target: newtab
         id: 3_1032_msupdatecatalog
-      - &ref_20
+      - &ref_21
         title: Códigos ASCII
         icon: >-
           https://img.icons8.com/?size=100&id=3QnmmCRBWaZU&format=png&color=000000
@@ -259,8 +266,54 @@ sections:
         target: newtab
         id: 4_1032_cdigosascii
     filteredItems:
-      - *ref_16
       - *ref_17
       - *ref_18
       - *ref_19
       - *ref_20
+      - *ref_21
+  - name: Status Serviços Troubleshooting
+    icon: https://img.icons8.com/?size=100&id=uGRfvflyalI5&format=png&color=000000
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_22
+        title: Downdetector
+        icon: https://cdn2.downdetector.com/db9da631acf98de/icons/favicon.png
+        url: https://downdetector.com.br/
+        target: newtab
+        id: 0_3294_downdetector
+      - &ref_23
+        title: Microsoft Services
+        icon: https://img.icons8.com/?size=100&id=22989&format=png&color=000000
+        url: https://portal.office.com/servicestatus
+        target: newtab
+        id: 1_3294_microsoftservices
+      - &ref_24
+        title: Ping.pe
+        icon: >-
+          https://img.icons8.com/?size=100&id=kYEPh3U5Cod0&format=png&color=000000
+        url: https://ping.pe/
+        target: newtab
+        id: 2_3294_pingpe
+      - &ref_25
+        title: Status ix.br
+        icon: https://ix.br/favicon.ico
+        url: https://ix.br/trafego/agregado
+        target: newtab
+        id: 3_3294_statusixbr
+      - &ref_26
+        title: Status opdc
+        icon: https://opendatacenter.com.br/assets/imagens/sobre-nos/hero-nuvem.png
+        url: https://status.opendata.center/
+        target: newtab
+        id: 4_3294_statusopdc
+    filteredItems:
+      - *ref_22
+      - *ref_23
+      - *ref_24
+      - *ref_25
+      - *ref_26
