@@ -118,7 +118,7 @@ sections:
       sortBy: alphabetical
       rows: 1
       cols: 1
-      collapsed: true
+      collapsed: false
       hideForGuests: false
     filteredItems:
       - *ref_0
@@ -135,7 +135,7 @@ sections:
       sortBy: alphabetical
       rows: 1
       cols: 1
-      collapsed: true
+      collapsed: false
       hideForGuests: false
     items:
       - &ref_7
@@ -175,7 +175,7 @@ sections:
       sortBy: alphabetical
       rows: 1
       cols: 1
-      collapsed: true
+      collapsed: false
       hideForGuests: false
     items:
       - &ref_11
@@ -221,7 +221,7 @@ sections:
       sortBy: alphabetical
       rows: 1
       cols: 1
-      collapsed: true
+      collapsed: false
       hideForGuests: false
     items:
       - &ref_16
