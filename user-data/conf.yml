@@ -16,10 +16,10 @@ appConfig:
       primary: '#aabbc3'
       background: '#151e2d'
       background-darker: '#151c29'
-  startingView: default
+  startingView: minimal
   defaultOpeningMethod: newtab
-  statusCheck: true
-  statusCheckInterval: 15
+  statusCheck: false
+  statusCheckInterval: 0
   backgroundImg: >-
     https://images.unsplash.com/photo-1633098096956-afdc8bcc8552?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   faviconApi: allesedv
@@ -49,7 +49,7 @@ appConfig:
       userHeader: ''
       proxyWhitelist: []
     enableKeycloak: false
-  showSplashScreen: true
+  showSplashScreen: false
   preventWriteToDisk: false
   preventLocalSave: false
   disableConfiguration: false
