@@ -134,7 +134,7 @@ sections:
     displayData:
       sortBy: alphabetical
       rows: 1
-      cols: 1
+      cols: 2
       collapsed: false
       hideForGuests: false
     items:
