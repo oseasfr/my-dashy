@@ -101,12 +101,19 @@ sections:
         url: https://bgp.he.net
         target: newtab
         id: 4_1705_bgptoolkit
+      - &ref_5
+        title: Builtwith
+        icon: https://builtwith.com/favicon.ico
+        url: https://builtwith.com/
+        target: newtab
+        id: 5_1705_builtwith
     filteredItems:
       - *ref_0
       - *ref_1
       - *ref_2
       - *ref_3
       - *ref_4
+      - *ref_5
   - name: GitHub
     icon: fab fa-github
     displayData:
@@ -116,26 +123,26 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - &ref_5
+      - &ref_6
         title: Wiki
         icon: https://github.com/favicon.ico
         url: https://github.com/oseasfr/cyber/wiki
         target: newtab
         id: 0_579_wiki
-      - &ref_6
+      - &ref_7
         title: search-abuseipdb
         icon: https://www.abuseipdb.com/favicon.ico
         url: https://oseasfr.github.io/search-abuseipdb/
         target: newtab
         id: 1_579_searchabuseipdb
-      - &ref_7
+      - &ref_8
         title: gerador-de-senhas
         icon: >-
           https://img.icons8.com/?size=100&id=n1tNCA0ZH7f5&format=png&color=000000
         url: https://oseasfr.github.io/gerador-de-senhas/
         target: newtab
         id: 2_579_geradordesenhas
-      - &ref_8
+      - &ref_9
         title: osint-regex-toolkit
         icon: >-
           https://raw.githubusercontent.com/oseasfr/osint-brazuca/main/assets/logo_profile.png
@@ -143,10 +150,10 @@ sections:
         target: newtab
         id: 3_579_osintregextoolkit
     filteredItems:
-      - *ref_5
       - *ref_6
       - *ref_7
       - *ref_8
+      - *ref_9
   - name: IA
     icon: fas fa-robot
     displayData:
@@ -156,68 +163,68 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - &ref_9
+      - &ref_10
         title: Presentations
         icon: >-
           https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/63fedbd8e101652ba74f55c5_p_ai_32.png
         url: https://www.presentations.ai/
         target: newtab
         id: 0_138_presentations
-      - &ref_10
+      - &ref_11
         title: Claude
         icon: https://claude.ai/favicon.ico
         url: https://claude.ai
         target: newtab
         id: 1_138_claude
-      - &ref_11
+      - &ref_12
         title: Kimi
         icon: https://statics.moonshot.cn/kimi-web-seo/favicon.ico
         url: https://kimi.moonshot.cn/
         target: newtab
         id: 2_138_kimi
-      - &ref_12
+      - &ref_13
         title: Manus
         icon: https://manus.im/favicon.ico
         url: https://manus.im
         target: newtab
         id: 3_138_manus
-      - &ref_13
+      - &ref_14
         title: Chatgpt
         icon: https://chatgpt.com/favicon.ico
         url: https://chatgpt.com
         target: newtab
         id: 4_138_chatgpt
-      - &ref_14
+      - &ref_15
         title: Napkin
         icon: https://www.napkin.ai/favicon.ico
         url: https://www.napkin.ai
         target: newtab
         id: 5_138_napkin
     filteredItems:
-      - *ref_9
       - *ref_10
       - *ref_11
       - *ref_12
       - *ref_13
       - *ref_14
+      - *ref_15
   - name: OSINT
     icon: fas fa-user-secret
     items:
-      - &ref_15
+      - &ref_16
         title: Shodan
         description: ''
         icon: https://www.shodan.io/static/img/favicon-60c1b1cd.png
         url: https://www.shodan.io/
         target: newtab
         id: 0_397_shodan
-      - &ref_16
+      - &ref_17
         title: IP Checker Info
         description: ''
         icon: https://ip-checker.info/favicon.ico
         url: https://ip-checker.info/
         target: newtab
         id: 1_397_ipcheckerinfo
-      - &ref_17
+      - &ref_18
         title: Virustotal
         description: ''
         icon: https://www.virustotal.com/gui/images/favicon.svg
@@ -225,21 +232,21 @@ sections:
         target: newtab
         provider: Dashy.to
         id: 2_397_virustotal
-      - &ref_18
+      - &ref_19
         title: Web-check
         description: ''
         icon: https://web-check.xyz/favicon.ico
         url: https://web-check.xyz/
         target: newtab
         id: 3_397_webcheck
-      - &ref_19
+      - &ref_20
         title: Abuseipdb
         description: ''
         icon: https://www.abuseipdb.com/favicon.ico
         url: https://www.abuseipdb.com/
         target: newtab
         id: 4_397_abuseipdb
-      - &ref_20
+      - &ref_21
         title: Netlas
         description: ''
         icon: >-
@@ -247,13 +254,13 @@ sections:
         url: https://app.netlas.io/host/
         target: newtab
         id: 5_397_netlas
-      - &ref_21
+      - &ref_22
         title: Urlscan.io
         icon: https://urlscan.io/favicon.ico
         url: https://urlscan.io
         target: newtab
         id: 6_397_urlscanio
-      - &ref_22
+      - &ref_23
         title: Fofa Info
         icon: https://en.fofa.info/favicon.ico
         url: https://en.fofa.info/
@@ -266,7 +273,6 @@ sections:
       collapsed: true
       hideForGuests: false
     filteredItems:
-      - *ref_15
       - *ref_16
       - *ref_17
       - *ref_18
@@ -274,6 +280,7 @@ sections:
       - *ref_20
       - *ref_21
       - *ref_22
+      - *ref_23
   - name: Status Services
     icon: fas fa-check-circle
     displayData:
@@ -283,43 +290,43 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - &ref_23
+      - &ref_24
         title: Downdetector
         icon: https://cdn2.downdetector.com/db9da631acf98de/icons/favicon.png
         url: https://downdetector.com.br/
         target: newtab
         id: 0_1512_downdetector
-      - &ref_24
+      - &ref_25
         title: Microsoft
         icon: fab fa-microsoft
         url: https://status.cloud.microsoft/
         target: newtab
         id: 1_1512_microsoft
-      - &ref_25
+      - &ref_26
         title: Ping.pe
         icon: >-
           https://img.icons8.com/?size=100&id=kYEPh3U5Cod0&format=png&color=000000
         url: https://ping.pe/
         target: newtab
         id: 2_1512_pingpe
-      - &ref_26
+      - &ref_27
         title: Status ix.br
         icon: https://ix.br/favicon.ico
         url: https://ix.br/trafego/agregado
         target: newtab
         id: 3_1512_statusixbr
-      - &ref_27
+      - &ref_28
         title: OPEN DC
         icon: https://opendatacenter.com.br/assets/imagens/sobre-nos/hero-nuvem.png
         url: https://status.opendata.center/
         target: newtab
         id: 4_1512_opendc
     filteredItems:
-      - *ref_23
       - *ref_24
       - *ref_25
       - *ref_26
       - *ref_27
+      - *ref_28
   - name: Utilidades
     icon: fas fa-tools
     displayData:
@@ -329,33 +336,33 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - &ref_28
+      - &ref_29
         title: Apêndice L
         icon: https://www.microsoft.com/favicon.ico?v2
         url: >-
           https://learn.microsoft.com/pt-br/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor
         target: newtab
         id: 0_1032_apndicel
-      - &ref_29
+      - &ref_30
         title: Favicon hash
         icon: >-
           https://img.icons8.com/?size=100&id=KwDPbwT6mZqk&format=png&color=000000
         url: https://favicon-hash.kmsec.uk/
         target: newtab
         id: 1_1032_faviconhash
-      - &ref_30
+      - &ref_31
         title: Excalidraw
         icon: https://excalidraw.com/favicon.ico
         url: https://excalidraw.com/
         target: newtab
         id: 2_1032_excalidraw
-      - &ref_31
+      - &ref_32
         title: MS Update Catalog
         icon: https://www.microsoft.com/favicon.ico?v2
         url: https://www.catalog.update.microsoft.com/Home.aspx
         target: newtab
         id: 3_1032_msupdatecatalog
-      - &ref_32
+      - &ref_33
         title: Códigos ASCII
         icon: >-
           https://img.icons8.com/?size=100&id=3QnmmCRBWaZU&format=png&color=000000
@@ -363,16 +370,16 @@ sections:
           https://www.freecodecamp.org/portuguese/news/codigos-alt-como-digitar-caracteres-especiais-e-simbolos-do-teclado-no-windows-usando-as-teclas-alt/
         target: newtab
         id: 4_1032_cdigosascii
-      - &ref_33
+      - &ref_34
         title: Awesome icons
         icon: https://fontawesome.com/favicon.ico
         url: https://fontawesome.com/icons
         target: newtab
         id: 5_1032_awesomeicons
     filteredItems:
-      - *ref_28
       - *ref_29
       - *ref_30
       - *ref_31
       - *ref_32
       - *ref_33
+      - *ref_34
