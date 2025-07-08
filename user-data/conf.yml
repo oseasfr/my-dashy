@@ -133,7 +133,7 @@ sections:
       https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png
     displayData:
       sortBy: alphabetical
-      rows: 1
+      rows: 2
       cols: 1
       collapsed: false
       hideForGuests: false
@@ -173,7 +173,7 @@ sections:
     icon: https://img.icons8.com/?size=100&id=97384&format=png&color=000000
     displayData:
       sortBy: alphabetical
-      rows: 1
+      rows: 2
       cols: 1
       collapsed: false
       hideForGuests: false
@@ -226,7 +226,7 @@ sections:
     icon: https://img.icons8.com/?size=100&id=20544&format=png&color=000000
     displayData:
       sortBy: alphabetical
-      rows: 1
+      rows: 2
       cols: 1
       collapsed: false
       hideForGuests: false
@@ -275,7 +275,7 @@ sections:
     icon: https://img.icons8.com/?size=100&id=uGRfvflyalI5&format=png&color=000000
     displayData:
       sortBy: alphabetical
-      rows: 1
+      rows: 2
       cols: 1
       collapsed: false
       hideForGuests: false
