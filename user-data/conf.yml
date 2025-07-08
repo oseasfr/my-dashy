@@ -134,7 +134,7 @@ sections:
     displayData:
       sortBy: alphabetical
       rows: 1
-      cols: 2
+      cols: 1
       collapsed: false
       hideForGuests: false
     items:
@@ -289,7 +289,7 @@ sections:
       - &ref_23
         title: Microsoft Services
         icon: https://img.icons8.com/?size=100&id=22989&format=png&color=000000
-        url: https://portal.office.com/servicestatus
+        url: https://status.cloud.microsoft/
         target: newtab
         id: 1_3294_microsoftservices
       - &ref_24
