@@ -62,8 +62,7 @@ appConfig:
   enableErrorReporting: false
 sections:
   - name: GitHub
-    icon: >-
-      https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png
+    icon: fab fa-github
     displayData:
       sortBy: alphabetical
       rows: 1
@@ -103,7 +102,7 @@ sections:
       - *ref_2
       - *ref_3
   - name: IA
-    icon: https://img.icons8.com/?size=100&id=97384&format=png&color=000000
+    icon: fas fa-robot
     displayData:
       sortBy: alphabetical
       rows: 1
@@ -156,7 +155,7 @@ sections:
       - *ref_8
       - *ref_9
   - name: OSINT
-    icon: 🔍
+    icon: fas fa-user-secret
     items:
       - &ref_10
         title: Mxtollbox
@@ -223,7 +222,7 @@ sections:
       - *ref_15
       - *ref_16
   - name: Status Services
-    icon: https://img.icons8.com/?size=100&id=uGRfvflyalI5&format=png&color=000000
+    icon: fas fa-check-circle
     displayData:
       sortBy: alphabetical
       rows: 1
@@ -239,7 +238,7 @@ sections:
         id: 0_1512_downdetector
       - &ref_18
         title: Microsoft Services
-        icon: https://img.icons8.com/?size=100&id=22989&format=png&color=000000
+        icon: fab fa-microsoft
         url: https://status.cloud.microsoft/
         target: newtab
         id: 1_1512_microsoftservices
@@ -262,14 +261,36 @@ sections:
         url: https://status.opendata.center/
         target: newtab
         id: 4_1512_statusopdc
+      - &ref_22
+        title: GitHub Status
+        icon: fab fa-github
+        url: https://www.githubstatus.com/
+        target: newtab
+        id: 5_1512_githubstatus
+      - &ref_23
+        title: Cloudflare Status
+        icon: fab fa-cloudflare
+        url: https://www.cloudflarestatus.com/
+        target: newtab
+        id: 6_1512_cloudflarestatus
+      - &ref_24
+        title: AWS Status
+        description: ''
+        icon: fab fa-aws
+        url: https://health.aws.amazon.com/health/status
+        target: newtab
+        id: 7_1512_awsstatus
     filteredItems:
       - *ref_17
       - *ref_18
       - *ref_19
       - *ref_20
       - *ref_21
+      - *ref_22
+      - *ref_23
+      - *ref_24
   - name: Utilidades
-    icon: https://img.icons8.com/?size=100&id=20544&format=png&color=000000
+    icon: fas fa-tools
     displayData:
       sortBy: alphabetical
       rows: 1
@@ -277,33 +298,33 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - &ref_22
+      - &ref_25
         title: Apêndice L
         icon: https://www.microsoft.com/favicon.ico?v2
         url: >-
           https://learn.microsoft.com/pt-br/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor
         target: newtab
         id: 0_1032_apndicel
-      - &ref_23
+      - &ref_26
         title: Favicon hash
         icon: >-
           https://img.icons8.com/?size=100&id=KwDPbwT6mZqk&format=png&color=000000
         url: https://favicon-hash.kmsec.uk/
         target: newtab
         id: 1_1032_faviconhash
-      - &ref_24
+      - &ref_27
         title: Excalidraw
         icon: https://excalidraw.com/favicon.ico
         url: https://excalidraw.com/
         target: newtab
         id: 2_1032_excalidraw
-      - &ref_25
+      - &ref_28
         title: MS Update Catalog
         icon: https://www.microsoft.com/favicon.ico?v2
         url: https://www.catalog.update.microsoft.com/Home.aspx
         target: newtab
         id: 3_1032_msupdatecatalog
-      - &ref_26
+      - &ref_29
         title: Códigos ASCII
         icon: >-
           https://img.icons8.com/?size=100&id=3QnmmCRBWaZU&format=png&color=000000
@@ -311,9 +332,47 @@ sections:
           https://www.freecodecamp.org/portuguese/news/codigos-alt-como-digitar-caracteres-especiais-e-simbolos-do-teclado-no-windows-usando-as-teclas-alt/
         target: newtab
         id: 4_1032_cdigosascii
+      - &ref_30
+        title: Awesome icons
+        icon: https://fontawesome.com/favicon.ico
+        url: https://fontawesome.com/icons
+        target: newtab
+        id: 5_1032_awesomeicons
     filteredItems:
-      - *ref_22
-      - *ref_23
-      - *ref_24
       - *ref_25
       - *ref_26
+      - *ref_27
+      - *ref_28
+      - *ref_29
+      - *ref_30
+  - name: Diagnósticos de Infra
+    icon: fas fa-cogs
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - &ref_31
+        title: TOP
+        icon: https://top.nic.br/favicon.ico
+        url: https://top.nic.br/
+        target: newtab
+        id: 0_2148_top
+      - &ref_32
+        title: SSL Server Test
+        icon: https://www.ssllabs.com/favicon.ico
+        url: https://www.ssllabs.com/ssltest
+        target: newtab
+        id: 1_2148_sslservertest
+      - &ref_33
+        title: Security Headers
+        description: ''
+        icon: fas fa-star
+        url: https://securityheaders.com
+        id: 2_2148_securityheaders
+    filteredItems:
+      - *ref_31
+      - *ref_32
+      - *ref_33
