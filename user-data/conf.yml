@@ -61,6 +61,100 @@ appConfig:
   disableSmartSort: false
   enableErrorReporting: false
 sections:
+  - name: GitHub
+    icon: >-
+      https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - &ref_7
+        title: Wiki
+        icon: https://github.com/favicon.ico
+        url: https://github.com/oseasfr/cyber/wiki
+        target: newtab
+        id: 0_579_wiki
+      - &ref_8
+        title: search-abuseipdb
+        icon: https://www.abuseipdb.com/favicon.ico
+        url: https://oseasfr.github.io/search-abuseipdb/
+        target: newtab
+        id: 1_579_searchabuseipdb
+      - &ref_9
+        title: gerador-de-senhas
+        icon: >-
+          https://img.icons8.com/?size=100&id=n1tNCA0ZH7f5&format=png&color=000000
+        url: https://oseasfr.github.io/gerador-de-senhas/
+        target: newtab
+        id: 2_579_geradordesenhas
+      - &ref_10
+        title: osint-regex-toolkit
+        icon: >-
+          https://raw.githubusercontent.com/oseasfr/osint-brazuca/main/assets/logo_profile.png
+        url: https://oseasfr.github.io/osint-regex-toolkit/
+        target: newtab
+        id: 3_579_osintregextoolkit
+    filteredItems:
+      - *ref_7
+      - *ref_8
+      - *ref_9
+      - *ref_10
+  - name: IA
+    icon: https://img.icons8.com/?size=100&id=97384&format=png&color=000000
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - &ref_11
+        title: Presentations
+        icon: >-
+          https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/63fedbd8e101652ba74f55c5_p_ai_32.png
+        url: https://www.presentations.ai/
+        target: newtab
+        id: 0_138_presentations
+      - &ref_12
+        title: Claude
+        icon: https://claude.ai/favicon.ico
+        url: https://claude.ai
+        target: newtab
+        id: 1_138_claude
+      - &ref_13
+        title: Kimi
+        icon: https://statics.moonshot.cn/kimi-web-seo/favicon.ico
+        url: https://kimi.moonshot.cn/
+        target: newtab
+        id: 2_138_kimi
+      - &ref_14
+        title: Manus
+        icon: https://manus.im/favicon.ico
+        url: https://manus.im
+        target: newtab
+        id: 3_138_manus
+      - &ref_15
+        title: Chatgpt
+        icon: https://chatgpt.com/favicon.ico
+        url: https://chatgpt.com
+        target: newtab
+        id: 4_138_chatgpt
+      - &ref_16
+        title: Napkin
+        icon: https://www.napkin.ai/favicon.ico
+        url: https://www.napkin.ai
+        target: newtab
+        id: 5_138_napkin
+    filteredItems:
+      - *ref_11
+      - *ref_12
+      - *ref_13
+      - *ref_14
+      - *ref_15
+      - *ref_16
   - name: OSINT
     icon: fas fa-globe
     items:
@@ -116,9 +210,9 @@ sections:
         id: 6_397_urlscanio
     displayData:
       sortBy: alphabetical
-      rows: 2
+      rows: 1
       cols: 1
-      collapsed: false
+      collapsed: true
       hideForGuests: false
     filteredItems:
       - *ref_0
@@ -128,107 +222,59 @@ sections:
       - *ref_4
       - *ref_5
       - *ref_6
-  - name: GitHub
-    icon: >-
-      https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png
+  - name: Status Serviços Troubleshooting
+    icon: https://img.icons8.com/?size=100&id=uGRfvflyalI5&format=png&color=000000
     displayData:
       sortBy: alphabetical
-      rows: 2
+      rows: 1
       cols: 1
-      collapsed: false
+      collapsed: true
       hideForGuests: false
     items:
-      - &ref_7
-        title: Wiki
-        icon: https://github.com/favicon.ico
-        url: https://github.com/oseasfr/cyber/wiki
+      - &ref_22
+        title: Downdetector
+        icon: https://cdn2.downdetector.com/db9da631acf98de/icons/favicon.png
+        url: https://downdetector.com.br/
         target: newtab
-        id: 0_579_wiki
-      - &ref_8
-        title: search-abuseipdb
-        icon: https://www.abuseipdb.com/favicon.ico
-        url: https://oseasfr.github.io/search-abuseipdb/
+        id: 0_3294_downdetector
+      - &ref_23
+        title: Microsoft Services
+        icon: https://img.icons8.com/?size=100&id=22989&format=png&color=000000
+        url: https://status.cloud.microsoft/
         target: newtab
-        id: 1_579_searchabuseipdb
-      - &ref_9
-        title: gerador-de-senhas
+        id: 1_3294_microsoftservices
+      - &ref_24
+        title: Ping.pe
         icon: >-
-          https://img.icons8.com/?size=100&id=n1tNCA0ZH7f5&format=png&color=000000
-        url: https://oseasfr.github.io/gerador-de-senhas/
+          https://img.icons8.com/?size=100&id=kYEPh3U5Cod0&format=png&color=000000
+        url: https://ping.pe/
         target: newtab
-        id: 2_579_geradordesenhas
-      - &ref_10
-        title: osint-regex-toolkit
-        icon: >-
-          https://raw.githubusercontent.com/oseasfr/osint-brazuca/main/assets/logo_profile.png
-        url: https://oseasfr.github.io/osint-regex-toolkit/
+        id: 2_3294_pingpe
+      - &ref_25
+        title: Status ix.br
+        icon: https://ix.br/favicon.ico
+        url: https://ix.br/trafego/agregado
         target: newtab
-        id: 3_579_osintregextoolkit
+        id: 3_3294_statusixbr
+      - &ref_26
+        title: Status opdc
+        icon: https://opendatacenter.com.br/assets/imagens/sobre-nos/hero-nuvem.png
+        url: https://status.opendata.center/
+        target: newtab
+        id: 4_3294_statusopdc
     filteredItems:
-      - *ref_7
-      - *ref_8
-      - *ref_9
-      - *ref_10
-  - name: IA
-    icon: https://img.icons8.com/?size=100&id=97384&format=png&color=000000
-    displayData:
-      sortBy: alphabetical
-      rows: 2
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - &ref_11
-        title: Presentations
-        icon: >-
-          https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/63fedbd8e101652ba74f55c5_p_ai_32.png
-        url: https://www.presentations.ai/
-        target: newtab
-        id: 0_138_presentations
-      - &ref_12
-        title: Claude
-        icon: https://claude.ai/favicon.ico
-        url: https://claude.ai
-        target: newtab
-        id: 1_138_claude
-      - &ref_13
-        title: Kimi
-        icon: https://statics.moonshot.cn/kimi-web-seo/favicon.ico
-        url: https://kimi.moonshot.cn/
-        target: newtab
-        id: 2_138_kimi
-      - &ref_14
-        title: Manus
-        icon: https://manus.im/favicon.ico
-        url: https://manus.im
-        target: newtab
-        id: 3_138_manus
-      - &ref_15
-        title: Chatgpt
-        icon: https://chatgpt.com/favicon.ico
-        url: https://chatgpt.com
-        target: newtab
-        id: 4_138_chatgpt
-      - &ref_16
-        title: Napkin
-        icon: https://www.napkin.ai/favicon.ico
-        url: https://www.napkin.ai
-        target: newtab
-        id: 5_138_napkin
-    filteredItems:
-      - *ref_11
-      - *ref_12
-      - *ref_13
-      - *ref_14
-      - *ref_15
-      - *ref_16
+      - *ref_22
+      - *ref_23
+      - *ref_24
+      - *ref_25
+      - *ref_26
   - name: Utilidades
     icon: https://img.icons8.com/?size=100&id=20544&format=png&color=000000
     displayData:
       sortBy: alphabetical
-      rows: 2
+      rows: 1
       cols: 1
-      collapsed: false
+      collapsed: true
       hideForGuests: false
     items:
       - &ref_17
@@ -271,49 +317,3 @@ sections:
       - *ref_19
       - *ref_20
       - *ref_21
-  - name: Status Serviços Troubleshooting
-    icon: https://img.icons8.com/?size=100&id=uGRfvflyalI5&format=png&color=000000
-    displayData:
-      sortBy: alphabetical
-      rows: 2
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - &ref_22
-        title: Downdetector
-        icon: https://cdn2.downdetector.com/db9da631acf98de/icons/favicon.png
-        url: https://downdetector.com.br/
-        target: newtab
-        id: 0_3294_downdetector
-      - &ref_23
-        title: Microsoft Services
-        icon: https://img.icons8.com/?size=100&id=22989&format=png&color=000000
-        url: https://status.cloud.microsoft/
-        target: newtab
-        id: 1_3294_microsoftservices
-      - &ref_24
-        title: Ping.pe
-        icon: >-
-          https://img.icons8.com/?size=100&id=kYEPh3U5Cod0&format=png&color=000000
-        url: https://ping.pe/
-        target: newtab
-        id: 2_3294_pingpe
-      - &ref_25
-        title: Status ix.br
-        icon: https://ix.br/favicon.ico
-        url: https://ix.br/trafego/agregado
-        target: newtab
-        id: 3_3294_statusixbr
-      - &ref_26
-        title: Status opdc
-        icon: https://opendatacenter.com.br/assets/imagens/sobre-nos/hero-nuvem.png
-        url: https://status.opendata.center/
-        target: newtab
-        id: 4_3294_statusopdc
-    filteredItems:
-      - *ref_22
-      - *ref_23
-      - *ref_24
-      - *ref_25
-      - *ref_26
