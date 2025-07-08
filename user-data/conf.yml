@@ -61,7 +61,7 @@ appConfig:
   disableSmartSort: false
   enableErrorReporting: false
 sections:
-  - name: Diagnósticos Web
+  - name: Search Engines Web
     icon: fas fa-cogs
     displayData:
       sortBy: alphabetical
@@ -75,39 +75,39 @@ sections:
         icon: https://top.nic.br/favicon.ico
         url: https://top.nic.br/
         target: newtab
-        id: 0_1705_top
+        id: 0_1661_top
       - &ref_1
         title: crt.sh
         icon: https://crt.sh/favicon.ico
         url: https://crt.sh/
         target: newtab
-        id: 1_1705_crtsh
+        id: 1_1661_crtsh
       - &ref_2
         title: ISP Tools
         icon: https://www.isp.tools/images/icons/favicon.png
         url: https://www.isp.tools/
         target: newtab
-        id: 2_1705_isptools
+        id: 2_1661_isptools
       - &ref_3
         title: BGP Tools
         icon: >-
           https://raw.githubusercontent.com/oseasfr/my-dashy/refs/heads/master/icons/bgp-tools.png
         url: https://bgp.tools/
         target: newtab
-        id: 3_1705_bgptools
+        id: 3_1661_bgptools
       - &ref_4
         title: BGP Toolkit
         icon: https://bgp.he.net/favicon.ico
         url: https://bgp.he.net
         target: newtab
-        id: 4_1705_bgptoolkit
+        id: 4_1661_bgptoolkit
       - &ref_5
         title: Builtwith
         icon: >-
           https://raw.githubusercontent.com/oseasfr/my-dashy/refs/heads/master/icons/favicon.ico
         url: https://builtwith.com/
         target: newtab
-        id: 5_1705_builtwith
+        id: 5_1661_builtwith
     filteredItems:
       - *ref_0
       - *ref_1
@@ -115,7 +115,7 @@ sections:
       - *ref_3
       - *ref_4
       - *ref_5
-  - name: GitHub
+  - name: My GitHub
     icon: fab fa-github
     displayData:
       sortBy: alphabetical
@@ -129,27 +129,27 @@ sections:
         icon: https://github.com/favicon.ico
         url: https://github.com/oseasfr/cyber/wiki
         target: newtab
-        id: 0_579_wiki
+        id: 0_809_wiki
       - &ref_7
         title: search-abuseipdb
         icon: https://www.abuseipdb.com/favicon.ico
         url: https://oseasfr.github.io/search-abuseipdb/
         target: newtab
-        id: 1_579_searchabuseipdb
+        id: 1_809_searchabuseipdb
       - &ref_8
         title: gerador-de-senhas
         icon: >-
           https://img.icons8.com/?size=100&id=n1tNCA0ZH7f5&format=png&color=000000
         url: https://oseasfr.github.io/gerador-de-senhas/
         target: newtab
-        id: 2_579_geradordesenhas
+        id: 2_809_geradordesenhas
       - &ref_9
         title: osint-regex-toolkit
         icon: >-
           https://raw.githubusercontent.com/oseasfr/osint-brazuca/main/assets/logo_profile.png
         url: https://oseasfr.github.io/osint-regex-toolkit/
         target: newtab
-        id: 3_579_osintregextoolkit
+        id: 3_809_osintregextoolkit
     filteredItems:
       - *ref_6
       - *ref_7
@@ -282,7 +282,7 @@ sections:
       - *ref_21
       - *ref_22
       - *ref_23
-  - name: Status Services
+  - name: Services Status
     icon: fas fa-check-circle
     displayData:
       sortBy: alphabetical
@@ -328,7 +328,7 @@ sections:
       - *ref_26
       - *ref_27
       - *ref_28
-  - name: Utilidades
+  - name: Other Utils
     icon: fas fa-tools
     displayData:
       sortBy: alphabetical
@@ -343,26 +343,26 @@ sections:
         url: >-
           https://learn.microsoft.com/pt-br/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor
         target: newtab
-        id: 0_1032_apndicel
+        id: 0_1075_apndicel
       - &ref_30
         title: Favicon hash
         icon: >-
           https://img.icons8.com/?size=100&id=KwDPbwT6mZqk&format=png&color=000000
         url: https://favicon-hash.kmsec.uk/
         target: newtab
-        id: 1_1032_faviconhash
+        id: 1_1075_faviconhash
       - &ref_31
         title: Excalidraw
         icon: https://excalidraw.com/favicon.ico
         url: https://excalidraw.com/
         target: newtab
-        id: 2_1032_excalidraw
+        id: 2_1075_excalidraw
       - &ref_32
         title: MS Update Catalog
         icon: https://www.microsoft.com/favicon.ico?v2
         url: https://www.catalog.update.microsoft.com/Home.aspx
         target: newtab
-        id: 3_1032_msupdatecatalog
+        id: 3_1075_msupdatecatalog
       - &ref_33
         title: Códigos ASCII
         icon: >-
@@ -370,13 +370,13 @@ sections:
         url: >-
           https://www.freecodecamp.org/portuguese/news/codigos-alt-como-digitar-caracteres-especiais-e-simbolos-do-teclado-no-windows-usando-as-teclas-alt/
         target: newtab
-        id: 4_1032_cdigosascii
+        id: 4_1075_cdigosascii
       - &ref_34
         title: Awesome icons
         icon: https://fontawesome.com/favicon.ico
         url: https://fontawesome.com/icons
         target: newtab
-        id: 5_1032_awesomeicons
+        id: 5_1075_awesomeicons
     filteredItems:
       - *ref_29
       - *ref_30
