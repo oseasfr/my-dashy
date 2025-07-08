@@ -103,7 +103,8 @@ sections:
         id: 4_1705_bgptoolkit
       - &ref_5
         title: Builtwith
-        icon: https://builtwith.com/favicon.ico
+        icon: >-
+          https://raw.githubusercontent.com/oseasfr/my-dashy/refs/heads/master/icons/favicon.ico
         url: https://builtwith.com/
         target: newtab
         id: 5_1705_builtwith
