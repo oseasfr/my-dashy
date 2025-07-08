@@ -61,6 +61,23 @@ appConfig:
   disableSmartSort: false
   enableErrorReporting: false
 sections:
+  - name: Diagnósticos Web
+    icon: fas fa-cogs
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - &ref_28
+        title: TOP
+        icon: https://top.nic.br/favicon.ico
+        url: https://top.nic.br/
+        target: newtab
+        id: 0_1705_top
+    filteredItems:
+      - *ref_28
   - name: GitHub
     icon: fab fa-github
     displayData:
@@ -261,19 +278,12 @@ sections:
         url: https://status.opendata.center/
         target: newtab
         id: 4_1512_statusopdc
-      - &ref_22
-        description: ''
-        icon: fab fa-aws
-        url: https://health.aws.amazon.com/health/status
-        target: newtab
-        id: 5_1512_unknown
     filteredItems:
       - *ref_17
       - *ref_18
       - *ref_19
       - *ref_20
       - *ref_21
-      - *ref_22
   - name: Utilidades
     icon: fas fa-tools
     displayData:
@@ -283,33 +293,33 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - &ref_23
+      - &ref_22
         title: Apêndice L
         icon: https://www.microsoft.com/favicon.ico?v2
         url: >-
           https://learn.microsoft.com/pt-br/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor
         target: newtab
         id: 0_1032_apndicel
-      - &ref_24
+      - &ref_23
         title: Favicon hash
         icon: >-
           https://img.icons8.com/?size=100&id=KwDPbwT6mZqk&format=png&color=000000
         url: https://favicon-hash.kmsec.uk/
         target: newtab
         id: 1_1032_faviconhash
-      - &ref_25
+      - &ref_24
         title: Excalidraw
         icon: https://excalidraw.com/favicon.ico
         url: https://excalidraw.com/
         target: newtab
         id: 2_1032_excalidraw
-      - &ref_26
+      - &ref_25
         title: MS Update Catalog
         icon: https://www.microsoft.com/favicon.ico?v2
         url: https://www.catalog.update.microsoft.com/Home.aspx
         target: newtab
         id: 3_1032_msupdatecatalog
-      - &ref_27
+      - &ref_26
         title: Códigos ASCII
         icon: >-
           https://img.icons8.com/?size=100&id=3QnmmCRBWaZU&format=png&color=000000
@@ -317,33 +327,16 @@ sections:
           https://www.freecodecamp.org/portuguese/news/codigos-alt-como-digitar-caracteres-especiais-e-simbolos-do-teclado-no-windows-usando-as-teclas-alt/
         target: newtab
         id: 4_1032_cdigosascii
-      - &ref_28
+      - &ref_27
         title: Awesome icons
         icon: https://fontawesome.com/favicon.ico
         url: https://fontawesome.com/icons
         target: newtab
         id: 5_1032_awesomeicons
     filteredItems:
+      - *ref_22
       - *ref_23
       - *ref_24
       - *ref_25
       - *ref_26
       - *ref_27
-      - *ref_28
-  - name: Diagnósticos Web
-    icon: fas fa-cogs
-    displayData:
-      sortBy: alphabetical
-      rows: 1
-      cols: 1
-      collapsed: true
-      hideForGuests: false
-    items:
-      - &ref_29
-        title: TOP
-        icon: https://top.nic.br/favicon.ico
-        url: https://top.nic.br/
-        target: newtab
-        id: 0_1705_top
-    filteredItems:
-      - *ref_29
