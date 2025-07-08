@@ -71,26 +71,26 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - &ref_7
+      - &ref_0
         title: Wiki
         icon: https://github.com/favicon.ico
         url: https://github.com/oseasfr/cyber/wiki
         target: newtab
         id: 0_579_wiki
-      - &ref_8
+      - &ref_1
         title: search-abuseipdb
         icon: https://www.abuseipdb.com/favicon.ico
         url: https://oseasfr.github.io/search-abuseipdb/
         target: newtab
         id: 1_579_searchabuseipdb
-      - &ref_9
+      - &ref_2
         title: gerador-de-senhas
         icon: >-
           https://img.icons8.com/?size=100&id=n1tNCA0ZH7f5&format=png&color=000000
         url: https://oseasfr.github.io/gerador-de-senhas/
         target: newtab
         id: 2_579_geradordesenhas
-      - &ref_10
+      - &ref_3
         title: osint-regex-toolkit
         icon: >-
           https://raw.githubusercontent.com/oseasfr/osint-brazuca/main/assets/logo_profile.png
@@ -98,10 +98,10 @@ sections:
         target: newtab
         id: 3_579_osintregextoolkit
     filteredItems:
-      - *ref_7
-      - *ref_8
-      - *ref_9
-      - *ref_10
+      - *ref_0
+      - *ref_1
+      - *ref_2
+      - *ref_3
   - name: IA
     icon: https://img.icons8.com/?size=100&id=97384&format=png&color=000000
     displayData:
@@ -111,68 +111,68 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - &ref_11
+      - &ref_4
         title: Presentations
         icon: >-
           https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/63fedbd8e101652ba74f55c5_p_ai_32.png
         url: https://www.presentations.ai/
         target: newtab
         id: 0_138_presentations
-      - &ref_12
+      - &ref_5
         title: Claude
         icon: https://claude.ai/favicon.ico
         url: https://claude.ai
         target: newtab
         id: 1_138_claude
-      - &ref_13
+      - &ref_6
         title: Kimi
         icon: https://statics.moonshot.cn/kimi-web-seo/favicon.ico
         url: https://kimi.moonshot.cn/
         target: newtab
         id: 2_138_kimi
-      - &ref_14
+      - &ref_7
         title: Manus
         icon: https://manus.im/favicon.ico
         url: https://manus.im
         target: newtab
         id: 3_138_manus
-      - &ref_15
+      - &ref_8
         title: Chatgpt
         icon: https://chatgpt.com/favicon.ico
         url: https://chatgpt.com
         target: newtab
         id: 4_138_chatgpt
-      - &ref_16
+      - &ref_9
         title: Napkin
         icon: https://www.napkin.ai/favicon.ico
         url: https://www.napkin.ai
         target: newtab
         id: 5_138_napkin
     filteredItems:
-      - *ref_11
-      - *ref_12
-      - *ref_13
-      - *ref_14
-      - *ref_15
-      - *ref_16
+      - *ref_4
+      - *ref_5
+      - *ref_6
+      - *ref_7
+      - *ref_8
+      - *ref_9
   - name: OSINT
-    icon: fas fa-globe
+    icon: 🔍
     items:
-      - &ref_0
+      - &ref_10
         title: Mxtollbox
         description: ''
         icon: https://mxtoolbox.com/favicon.ico
         url: https://mxtoolbox.com/blacklists.aspx
         target: newtab
         id: 0_397_mxtollbox
-      - &ref_1
+      - &ref_11
         title: IP Checker Info
         description: ''
         icon: https://ip-checker.info/favicon.ico
         url: https://ip-checker.info/
         target: newtab
         id: 1_397_ipcheckerinfo
-      - &ref_2
+      - &ref_12
         title: Virustotal
         description: ''
         icon: https://www.virustotal.com/gui/images/favicon.svg
@@ -180,21 +180,21 @@ sections:
         target: newtab
         provider: Dashy.to
         id: 2_397_virustotal
-      - &ref_3
+      - &ref_13
         title: Web-check
         description: ''
         icon: https://web-check.xyz/favicon.ico
         url: https://web-check.xyz/
         target: newtab
         id: 3_397_webcheck
-      - &ref_4
+      - &ref_14
         title: Abuseipdb
         description: ''
         icon: https://www.abuseipdb.com/favicon.ico
         url: https://www.abuseipdb.com/
         target: newtab
         id: 4_397_abuseipdb
-      - &ref_5
+      - &ref_15
         title: Netlas
         description: ''
         icon: >-
@@ -202,7 +202,7 @@ sections:
         url: https://app.netlas.io/host/
         target: newtab
         id: 5_397_netlas
-      - &ref_6
+      - &ref_16
         title: Urlscan.io
         icon: https://urlscan.io/favicon.ico
         url: https://urlscan.io
@@ -215,14 +215,14 @@ sections:
       collapsed: true
       hideForGuests: false
     filteredItems:
-      - *ref_0
-      - *ref_1
-      - *ref_2
-      - *ref_3
-      - *ref_4
-      - *ref_5
-      - *ref_6
-  - name: Status Serviços Troubleshooting
+      - *ref_10
+      - *ref_11
+      - *ref_12
+      - *ref_13
+      - *ref_14
+      - *ref_15
+      - *ref_16
+  - name: Status Services
     icon: https://img.icons8.com/?size=100&id=uGRfvflyalI5&format=png&color=000000
     displayData:
       sortBy: alphabetical
@@ -231,43 +231,43 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - &ref_22
+      - &ref_17
         title: Downdetector
         icon: https://cdn2.downdetector.com/db9da631acf98de/icons/favicon.png
         url: https://downdetector.com.br/
         target: newtab
-        id: 0_3294_downdetector
-      - &ref_23
+        id: 0_1512_downdetector
+      - &ref_18
         title: Microsoft Services
         icon: https://img.icons8.com/?size=100&id=22989&format=png&color=000000
         url: https://status.cloud.microsoft/
         target: newtab
-        id: 1_3294_microsoftservices
-      - &ref_24
+        id: 1_1512_microsoftservices
+      - &ref_19
         title: Ping.pe
         icon: >-
           https://img.icons8.com/?size=100&id=kYEPh3U5Cod0&format=png&color=000000
         url: https://ping.pe/
         target: newtab
-        id: 2_3294_pingpe
-      - &ref_25
+        id: 2_1512_pingpe
+      - &ref_20
         title: Status ix.br
         icon: https://ix.br/favicon.ico
         url: https://ix.br/trafego/agregado
         target: newtab
-        id: 3_3294_statusixbr
-      - &ref_26
+        id: 3_1512_statusixbr
+      - &ref_21
         title: Status opdc
         icon: https://opendatacenter.com.br/assets/imagens/sobre-nos/hero-nuvem.png
         url: https://status.opendata.center/
         target: newtab
-        id: 4_3294_statusopdc
+        id: 4_1512_statusopdc
     filteredItems:
-      - *ref_22
-      - *ref_23
-      - *ref_24
-      - *ref_25
-      - *ref_26
+      - *ref_17
+      - *ref_18
+      - *ref_19
+      - *ref_20
+      - *ref_21
   - name: Utilidades
     icon: https://img.icons8.com/?size=100&id=20544&format=png&color=000000
     displayData:
@@ -277,33 +277,33 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - &ref_17
+      - &ref_22
         title: Apêndice L
         icon: https://www.microsoft.com/favicon.ico?v2
         url: >-
           https://learn.microsoft.com/pt-br/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor
         target: newtab
         id: 0_1032_apndicel
-      - &ref_18
+      - &ref_23
         title: Favicon hash
         icon: >-
           https://img.icons8.com/?size=100&id=KwDPbwT6mZqk&format=png&color=000000
         url: https://favicon-hash.kmsec.uk/
         target: newtab
         id: 1_1032_faviconhash
-      - &ref_19
+      - &ref_24
         title: Excalidraw
         icon: https://excalidraw.com/favicon.ico
         url: https://excalidraw.com/
         target: newtab
         id: 2_1032_excalidraw
-      - &ref_20
+      - &ref_25
         title: MS Update Catalog
         icon: https://www.microsoft.com/favicon.ico?v2
         url: https://www.catalog.update.microsoft.com/Home.aspx
         target: newtab
         id: 3_1032_msupdatecatalog
-      - &ref_21
+      - &ref_26
         title: Códigos ASCII
         icon: >-
           https://img.icons8.com/?size=100&id=3QnmmCRBWaZU&format=png&color=000000
@@ -312,8 +312,8 @@ sections:
         target: newtab
         id: 4_1032_cdigosascii
     filteredItems:
-      - *ref_17
-      - *ref_18
-      - *ref_19
-      - *ref_20
-      - *ref_21
+      - *ref_22
+      - *ref_23
+      - *ref_24
+      - *ref_25
+      - *ref_26
