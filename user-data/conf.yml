@@ -384,3 +384,8 @@ sections:
       - *ref_32
       - *ref_33
       - *ref_34
+pages:
+  - name: antivirus
+    path: antivirus
+    displayData:
+      hideForGuests: false
