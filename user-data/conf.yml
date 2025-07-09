@@ -384,8 +384,3 @@ sections:
       - *ref_32
       - *ref_33
       - *ref_34
-pages:
-  - name: antivirus
-    path: dashy_conf (27).yml
-    displayData:
-      hideForGuests: false
